@@ -56,7 +56,7 @@ public class UserTest
     }
     
     @Test
-    public void test2()
+    public void TestWithError()
     {
         User user1 = new User();
         user1.setEmail("ali@email.com");
@@ -83,6 +83,20 @@ public class UserTest
         assertEquals("peixe@gmail.com", user2.getEmail());
         assertEquals("tilapia", user2.getPassword());
         assertEquals("peixe", user2.getLogin());
+    }
+    
+    @Test
+    public void userToPost()
+    {
+    User user1 = new User();
+    user1.setEmail("alisson@gmail.com");
+    user1.setLogin("alissonvgs");
+    assertEquals("alissonvgs", user1.getLogin());
+    Post post1 = new Post();
+    post1.setAuthor(user1);
+    post1.setDescription("Alguma descriçao");
+    assertEquals(user1, post1.getAuthor());
+    assertEquals("Alguma descriçao", post1.getDescription());    
     }
 }
 
