@@ -1,0 +1,11 @@
+#BlueJ class context
+comment0.target=Relation
+comment1.params=
+comment1.target=User\ getFollower()
+comment2.params=
+comment2.target=User\ getFollowed()
+comment3.params=follower
+comment3.target=void\ setFollower(User)
+comment4.params=followed
+comment4.target=void\ setFollowed(User)
+numComments=5

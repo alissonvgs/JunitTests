@@ -1,11 +1,11 @@
 #BlueJ class context
 comment0.target=Post
-comment1.params=
-comment1.target=User\ getAuthor()
-comment2.params=author
-comment2.target=void\ setAuthor(User)
-comment3.params=
-comment3.target=java.lang.String\ getDescription()
-comment4.params=description
-comment4.target=void\ setDescription(java.lang.String)
+comment1.params=author
+comment1.target=void\ setAuthor(User)
+comment2.params=
+comment2.target=User\ getAuthor()
+comment3.params=description
+comment3.target=void\ setDescription(java.lang.String)
+comment4.params=
+comment4.target=java.lang.String\ getDescription()
 numComments=5
